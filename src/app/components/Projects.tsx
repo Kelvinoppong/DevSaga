@@ -3,6 +3,7 @@ import { ExternalLink, Github } from "lucide-react";
 import { Card } from "@/app/components/ui/card";
 import { Badge } from "@/app/components/ui/badge";
 import { Button } from "@/app/components/ui/button";
+import autoclaimImage from "@/app/Autoclaim.png";
 
 export function Projects() {
   const projects = [
@@ -10,7 +11,7 @@ export function Projects() {
       title: "AutoClaim",
       subtitle: "State Farm Hackathon Winner",
       description: "Developed a claims dashboard using computer vision to analyze vehicle damage. Built a secure backend for claims processing and image storage with OAuth-based security.",
-      image: "https://images.unsplash.com/photo-1675495277087-10598bf7bcd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBjb2RlJTIwcHJvZ3JhbW1pbmd8ZW58MXx8fHwxNzY4ODQ0MjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: autoclaimImage,
       tags: ["TypeScript", "Node.js", "PostgreSQL", "AWS S3", "Tailwind CSS"],
       github: "https://github.com/Kelvinoppong",
     },
