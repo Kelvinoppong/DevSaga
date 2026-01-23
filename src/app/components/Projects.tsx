@@ -8,6 +8,14 @@ import autoclaimImage from "@/app/Autoclaim.png";
 export function Projects() {
   const projects = [
     {
+      title: "CodeAtlas",
+      description: "First-ever code analysis platform providing file context, AI tools, and visualizations to enhance programming. Built a full-stack web app with GitHub repository integration and designed a waitlist system with cross-device data syncing using WebRTC.",
+      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RlJTIwdmlzdWFsaXphdGlvbiUyMGdyYXBofGVufDF8fHx8MTc2ODg0NDIxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      tags: ["Next.js", "FastAPI", "TypeScript", "SQL", "WebRTC", "PeerJS"],
+      github: "https://github.com/Kelvinoppong",
+      live: "https://codeatlas.dev",
+    },
+    {
       title: "AutoClaim",
       subtitle: "State Farm Hackathon Winner",
       description: "Developed a claims dashboard using computer vision to analyze vehicle damage. Built a secure backend for claims processing and image storage with OAuth-based security.",
